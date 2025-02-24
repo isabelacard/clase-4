@@ -47,6 +47,37 @@
     transition: all 0.3s ease;
 }
 
-.nav-terms li a:hover {
+.nav-items li a:hover {
     color: #f00;
+}
+
+.call-to-action{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 100px;
+    height: 450px;
+    background-color: red;
+    gap: 20px;
+}
+
+h1, p{
+    color: white;
+}
+
+button{
+    text-transform: uppercase;
+    max-width: 150px;
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background-color: #018ac0;
+    border-radius: 25px;
+    border: none;
+}
+
+img{
+    max-width: 70%;
+    max-height: 60%;
 }
