@@ -76,7 +76,7 @@ button{
     border: none;
 }
 
-img{
+.fondoperros{
     max-width: 70%;
     max-height: 60%;
 }
@@ -131,4 +131,20 @@ img{
     background-color: #018ac0;
 }
 
+/* Seccion 3 */
 
+.third{
+    width: 100%;
+    height: 100%;
+}
+
+.servicios{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.servicios img{
+    max-width: 100%;
+}
