@@ -60,91 +60,112 @@
     align-items: center;
     padding-top: 100px;
     height: 450px;
-    background-color: red;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0 ,0, 0, 0.5)), url(https://www.ingridkuhn.com/themes/unitedpets/img/slider/slide1-parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     gap: 20px;
     color: white;
+
+    h1{
+        text-transform: uppercase;
+        color: white;
+    }
+    
+    p{
+        color: white;
+    }
+
+    button{
+        text-transform: uppercase;
+        max-width: 150px;
+        font-weight: 700;
+        padding: 10px 30px;
+        color: white;
+        background-color: #018ac0;
+        border-radius: 25px;
+        border: none;
+    }
+    
+    .fondoperros{
+        max-width: 70%;
+        max-height: 60%;
+    }
 }
 
-button{
-    text-transform: uppercase;
-    max-width: 150px;
-    font-weight: 700;
-    padding: 10px 30px;
-    color: white;
-    background-color: #018ac0;
-    border-radius: 25px;
-    border: none;
-}
 
-.fondoperros{
-    max-width: 70%;
-    max-height: 60%;
-}
-
-/* Second */
-
-.second{
-    background-color: #018ac0;
-    width: 100%;
-    height: 250px;
-}
+/* Second Part */
 
 .quality{
-    display: flex;
-    justify-content: center;
+    max-width: 800px;
+    margin: auto;
     align-items: center;
-    width: 100%;
-    height: 100%;
-    background-color: white;
+    display: flex;
+    padding: 50px 0px;
+
+
+    button{
+        width: 150px;
+        padding: 10px 30px;
+        background-color: #d61c62;
+        border-radius: 25px;
+        border: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
 }
 
-.container2{
-    padding-left: 60px;
+.quality-text{
+    display: flex;
+    flex-direction: column;
+    h1{
+        padding-bottom: 10px;
+    }
 }
 
-.titulo2{
-    font-size: 30px;
-}
+/* Third Part */
 
-.texto2{
-    font-size: 15px;
-    color: gray;
-    width: 100%;
-    font-weight: 400;
-}
-
-.containerbutton{
-    padding-right: 0px;
-    width: 40%;
-    padding-top: 40px;
-}
-
-.button2{       
-    font-size: 16px;
-    font-weight: 700;
-    max-width: 100%;
-    padding: 10px 50px;
-    background-color: #D61C62;
-}
-
-.button2:hover{
-    background-color: #018ac0;
-}
-
-/* Seccion 3 */
-
-.third{
-    width: 100%;
-    height: 100%;
-}
-
-.servicios{
+.services{
     display: flex;
     width: 100%;
-    height: 100%;
-    max-width: 100%;
+    max-height: 350px;
 }
 
-.servicios img{
-    max-width: 100%;
+.service-element{
+    width: 33.33%;
+    height: 350px;
+    flex-direction: column-reverse;
+    text-align: center;
+    display: flex;
+    color: white;
+    background-size: cover;
+    padding-top: 10px;
+    background-color: rgba(0 ,0, 0, 0.4);
+    border-bottom: 4px solid #018ac0;
+
+    div{
+        height: 25%;
+    }
+
+    h2{
+        text-transform: uppercase;
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
 }
+
+#service{
+    background-image: url(./recursos/box1.jpg);
+}
+
+#about{
+    background-image: url(./recursos/box2.jpg);
+}
+
+#team{
+    background-image: url(./recursos/box3.jpg);
+}
+
+
+/* Fourth Part */
+
